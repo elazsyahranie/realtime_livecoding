@@ -10,21 +10,6 @@ class Counter extends Component {
       count: 0,
     };
   }
-  increaseCounter = () => {
-    this.setState({
-      count: this.state.count + 1,
-    });
-  };
-  decreaseCounter = () => {
-    this.setState({
-      count: this.state.count - 1,
-    });
-  };
-  resetCounter = () => {
-    this.setState({
-      count: 0,
-    });
-  };
 
   render() {
     const { count } = this.state;
